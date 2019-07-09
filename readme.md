@@ -1,5 +1,6 @@
 # im_crop
-Simple module to crop/save image fragments. Saves as png.
+Simple module to crop out rectangles from a larger image and saves as png. For building up
+training data for CNNs when you have very large images.
 
 ## Set up environment
   conda create --name crop
