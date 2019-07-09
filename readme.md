@@ -3,9 +3,11 @@ Simple module to crop out rectangles from a larger image and saves as png. For b
 training data for CNNs when you have very large images.
 
 ## Set up environment
-  conda create --name crop
-  conda activate crop
-  conda install opencv numpy
+If using conda:
+
+    conda create --name crop
+    conda activate crop
+    conda install opencv numpy
 
 ## Usage
 Briefly, run `image_cropper.py`, draw rectangles, click **s** to save rectangle.
