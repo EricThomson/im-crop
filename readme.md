@@ -1,6 +1,6 @@
 # im_crop
 Simple module to crop out rectangles from a larger image and saves as png. For building up
-training data for CNNs when you have very large images.
+training data for CNNs when you have very large images. Work in progress.
 
 ## Set up environment
 If using conda:
@@ -12,7 +12,7 @@ If using conda:
 ## Usage
 Briefly, run `image_cropper.py`, draw rectangles, click **s** to save rectangle.
 
-More details: this is not plug and play: in the file, you will need to change base_path
+More details: this is not plug and play yet: in the file, you will need to change base_path
 to the path that contains the large images you want to crop. Change output_path to the
 path where you want to save the smaller cropped pngs. Then set the image_ind, the index
 of the image path you want to crop.
@@ -27,3 +27,4 @@ Press esc to exit the window. To move to next image, change the image_ind manual
 
 ## To do
 Have option of cycling through all images in input folder.
+Add gui using pyqt to let user select image.
