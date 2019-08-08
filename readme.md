@@ -27,4 +27,4 @@ Press esc to exit the window. To move to next image, change the image_ind manual
 
 ## To do
 Have option of cycling through all images in input folder.
-Add gui using pyqt to let user select image.
+Add gui using pyqt to let user select image or file. Make it more like labelimg.
