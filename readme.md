@@ -1,13 +1,18 @@
-# im_crop
+# im-crop
 Simple module to crop out rectangles from a larger image and saves as png. For building up
 training data for CNNs when you have very large images. Work in progress.
 
-## Set up environment
+## Set up environment and clone repo
 If using conda:
 
     conda create --name crop
     conda activate crop
     conda install opencv numpy
+
+Go to directory where you want repo:
+    git clone https://github.com/EricThomson/im-crop.git
+
+And it should work.
 
 ## Usage
 Briefly, run `image_cropper.py`, draw rectangles, click **s** to save rectangle.
