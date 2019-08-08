@@ -7,9 +7,10 @@ If using conda:
 
     conda create --name crop
     conda activate crop
-    conda install opencv numpy
+    conda install opencv=4
+    conda install numpy
 
-Get the files.Go to directory where you want repo and at your conda prompt:    
+Get the files: go to directory where you want repo and at your conda prompt:    
 
     git clone https://github.com/EricThomson/im-crop.git
 

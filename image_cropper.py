@@ -13,9 +13,10 @@ if platform.system() == 'Linux':
     input_path = r'/home/eric/Desktop/fish_initial_data/giga_stitched/' #r'/home/eric/deep_learning/fish/annotated_images/'
     output_path = r'/home/eric/Desktop/fish_initial_data/giga_cropped/' #r"//home/eric/deep_learning/fish/small_images/"
 else:
-    print("Fill this in")
+    input_path = r'C:/Users/Eric/Desktop/cnn_data/'
+    output_path = r'C:/Users/Eric/Desktop/cnn_data/cropped/'
 
-window_params = {'width': 1500, 'height': 1800, 'x': 200, 'y': 200}
+window_params = {'width': 500, 'height': 600, 'x': 2000, 'y': 10}
 
 #%%
 image_paths = np.sort(glob.glob(input_path + "*.bmp"))
