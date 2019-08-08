@@ -9,7 +9,8 @@ If using conda:
     conda activate crop
     conda install opencv numpy
 
-Go to directory where you want repo:
+Get the files.Go to directory where you want repo and at your conda prompt:    
+
     git clone https://github.com/EricThomson/im-crop.git
 
 And it should work.
