@@ -1,8 +1,8 @@
 # im-crop
 Simple module to crop out rectangles from a larger image and save subimage. For building up
 training data for CNNs when you have very large images. Work in progress. There is
-one where you can control the size (`im_cropper.py`) and one that sets images to a fixed
-size ('im_cropper_fixed_size.py').
+one module where you can control the size (`im_cropper.py`) and one that sets images to a fixed
+size (`im_cropper_fixed_size.py`).
 
 ## Set up environment and clone repo
 If using conda:
@@ -36,6 +36,6 @@ when you release the mouse. If you want to save that rectangular region, just cl
 Press esc to exit the window. To move to next image, change the image_ind manually.
 
 ## To do
-Have option of cycling through all images in input folder.
-Add gui using pyqt to let user select image or file. Make it more like labelimg.
-Set image type as parameter rather than fixed.
+- Have option of cycling through all images in input folder.
+- Add gui using pyqt to let user select image or file. Make it more like labelimg.
+- Set image type as parameter rather than fixed.
