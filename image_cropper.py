@@ -41,7 +41,7 @@ s_x = s_y = e_x = e_y = -1
 def mouse_callback(event, x, y, flags, param):
     global image_to_show, s_x, s_y, e_x, e_y, mouse_pressed
 
-    if event == cv2.EVENT_LBUTTONDOWN:
+    if event == cv2.EVENT_RBUTTONDOWN:
         mouse_pressed = True
         s_x, s_y = x, y
         image_to_show = np.copy(image)
@@ -52,7 +52,7 @@ def mouse_callback(event, x, y, flags, param):
             cv2.rectangle(image_to_show, (s_x, s_y),
                           (x, y), (255, 255, 255), line_width)
 
-    elif event == cv2.EVENT_LBUTTONUP:
+    elif event == cv2.EVENT_RBUTTONUP:
         mouse_pressed = False
         e_x, e_y = x, y
         print(s_x, s_y, e_x, e_y)
